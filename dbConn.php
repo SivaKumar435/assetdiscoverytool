@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","root","","demodb");
+$db = mysqli_connect("remotemysql.com","zNLjhjpuhE","KYTewmTKrz","zNLjhjpuhE");
 
 if(!$db)
 {
