@@ -1,1 +1,1 @@
-web gunicorn app_LinearSVC:app
+echo "web: vendor/bin/heroku-php-apache2 public/" > Procfile
