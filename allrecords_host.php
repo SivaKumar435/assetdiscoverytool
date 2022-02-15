@@ -23,7 +23,7 @@
 include "dbConn.php"; // Using database connection file here
 
 $value = trim($_POST['host']);
-$value = mysqli_real_escape_string($db, $value);
+//$value = mysqli_real_escape_string($db, $value);
 $records = mysqli_query($db,"select * from demodb1 where `host` = '$value'"); // fetch data from database
 while($data = mysqli_fetch_array($records))
 {
