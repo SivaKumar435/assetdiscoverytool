@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("https://www.000webhost.com/members/website/sivakumark","id18460520_root","mSIEE62qr$5B~/*E","id18460520_mydb");
+$db = mysqli_connect("databases.000webhost.com","id18460520_root","mSIEE62qr$5B~/*E","id18460520_mydb");
 
 if(!$db)
 {
