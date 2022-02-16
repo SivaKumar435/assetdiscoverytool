@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("databases.000webhost.com","id18460520_root","mSIEE62qr$5B~/*E","id18460520_mydb");
+$db = mysqli_connect("sql6.freemysqlhosting.net","sql6473127","nFLbZtjKxj","sql6473127");
 
 if(!$db)
 {
