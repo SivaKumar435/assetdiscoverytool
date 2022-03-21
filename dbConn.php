@@ -1,6 +1,8 @@
 <?php
 
-$db = mysqli_connect("sql6.freemysqlhosting.net","sql6473127","nFLbZtjKxj","sql6473127");
+
+$db = mysqli_connect("localhost","root","","demodb1");
+
 
 if(!$db)
 {
